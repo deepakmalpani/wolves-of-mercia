@@ -9,3 +9,11 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@plugin 'flowbite/plugin';
+
+@import '@fontsource/exo-2';
+
+
+body{
+    font-family: 'Exo 2';
+}
