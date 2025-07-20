@@ -1,4 +1,5 @@
 <script lang="ts">
+	import LoginCard from "../components/login-card.svelte";
 </script>
 
 <svelte:head>
@@ -8,12 +9,7 @@
 
 <section>
 	<div>
-		<div class="card w-full max-w-md preset-filled-surface-100-900 p-4 text-center">
-			<label class="label">
-				<span class="label-text">Enter your name</span>
-				<input class="input" type="text" placeholder="Input" />
-			</label>
-		</div>
+		<LoginCard />
 	</div>
 </section>
 
@@ -24,9 +20,5 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
 	}
 </style>
